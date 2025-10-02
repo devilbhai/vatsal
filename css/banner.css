@@ -1,0 +1,153 @@
+
+.gallery{
+	width:934px;
+	position:relative;
+	overflow:hidden;
+}
+#pager{
+	position:absolute;
+	z-index:999;
+	left:442px;
+	top:280px;
+}
+#pager a{
+	background:url(../images/bullet02.png) no-repeat;
+	width:9px;
+	height:9px;
+	text-indent:-9999px;
+	overflow:hidden;
+	margin-right:5px;
+	float:left;
+	cursor:pointer;
+}
+#pager .activeSlide,
+#pager a:hover{background:url(../images/bullet01.png) no-repeat;}
+.slideshow{
+	padding-bottom:15px;
+	height:295px;
+	position:relative;
+}
+.slideshow .holder{
+	position:absolute;
+	top:0;
+	left:0;
+}
+.slide01{
+	height:295px;
+	width:934px;
+}
+.slide02{
+	height:295px;
+	width:934px;
+}
+.slide03{
+	height:295px;
+	width:934px;
+}
+.slide04{
+	height:295px;
+	width:934px;
+}
+.slideshow h2{
+	margin:0 0 27px;
+	font:28px/27px "ClarendonLTStdRoman", Times, serif;
+	color:#bda7a3;
+	text-align:center;
+}
+.slideshow .slide03 h2{
+	color:#fff;
+	font-size:40px;
+	line-height:39px;
+}
+.slideshow .slide04 h2{
+	color:#fff;
+}
+.slide01 .holder{
+	width:350px;
+	padding:144px 0 0 0;
+}
+.btn01{
+	background:url(/Images/btn01.png) no-repeat;
+	width:282px;
+	height:48px;
+	text-align:center;
+	font:17px/37px "ClarendonLTStdRoman", Times, serif;
+	color:#000;
+	text-decoration:none;
+	display:block;
+	margin:0 auto;
+	padding:5px 0 0 0;
+	margin:0 0 0 195px;
+}
+.slide02 .holder{
+	width:282px;
+	padding:101px 0 0 0;
+}
+.slide02 .btn01{
+	background:url(../images/banner_text_bg2.png) repeat-x left top;
+	font-size:26px;
+	font-family:"TradeGothic LT";
+	color:#fff;
+}
+.slide03 .btn01{
+	background:url(/Images/btn03.png) no-repeat;
+	width:204px;
+	color:#fff;
+}
+.slide04 .btn01{
+	background:url(/Images/btn04.png) no-repeat;
+	width:240px;
+	color:#fff;
+}
+.slide02 .title{
+	background:url(/Images/bg-title.png) no-repeat;
+	width:261px;
+	height:30px;
+	text-indent:-9999px;
+	overflow:hidden;
+	margin:0 0 0 0;
+}
+.slide02 ul{
+	margin:130px 0 0 0;
+	padding:0 0 0 0;
+	list-style:none;
+	width:350px;
+}
+.slide02 ul li{
+	background:url(/Images/sep03.png) no-repeat;
+	text-align:center;
+	padding:0 0 4px;
+}
+.slide02 ul li:first-child{background:url(../images/banner_text_bg.png) repeat-x left top;}
+.slide02 ul li strong{
+	display:block;
+	text-align:left;
+	font:32px "TradeGothic LT";
+	text-transform:uppercase;
+	text-shadow:#858687 1px 1px 1px;
+	color:#fff;
+	padding:6px 0 0 0;
+}
+.slide02 ul li p{
+	font:20px "TradeGothic LT";
+	color:#FFFFFF;
+	float:left;
+	text-transform:uppercase;
+	margin: 0;
+	text-shadow:#858687 1px 1px 1px;
+	padding:18px 6px 0 17px;
+}
+.slide03 .holder{
+	width:350px;
+	padding:0 0 0 0;
+}
+.slide04 .holder{
+	width:350px;
+	padding:0 0 0 0;
+}
+.slide04 p{
+	margin:0 0 0;
+	color:#000;
+	text-align:center;
+	font:italic 14px/19px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
